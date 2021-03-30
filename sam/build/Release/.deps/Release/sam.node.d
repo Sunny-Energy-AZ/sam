@@ -1,0 +1,1 @@
+cmd_Release/sam.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release -stdlib=libc++  -o Release/sam.node Release/obj.target/sam/src/sam.o Release/obj.target/sam/src/pvwattsv5.o Release/obj.target/sam/src/utilityrate5.o Release/obj.target/sam/src/battwatts.o ./Release/../../ssc/lib/mac/ssc.dylib
