@@ -1,6 +1,6 @@
 // @ts-ignore
 import SAM = require("../../sam/build/Release/sam");
-import { runUtilityRate5Resp } from "../models/utilityRate5";
+import { UtilityRate5Resp } from "../models/utility-rate-5";
 
 export class UtilityRate5Wrapper {
   utilityRate5: SAM.UtilityRate5;
@@ -99,7 +99,7 @@ export class UtilityRate5Wrapper {
     this.utilityRate5.setDemandRatesFlatTable(flatdemandstructure);
   }
 
-  run(): runUtilityRate5Resp {
+  run(): UtilityRate5Resp {
     return this.utilityRate5.run();
   }
 }

@@ -1,6 +1,6 @@
 // @ts-ignore
 import SAM = require("../../sam/build/Release/sam");
-import { runPVWattsV5Resp } from "../models/pvWattsV5";
+import { PVWattsV5Resp } from "../models/pv-watts-v5";
 
 export class PVWattsV5Wrapper {
   pvWatts: SAM.PVWattsV5;
@@ -61,7 +61,7 @@ export class PVWattsV5Wrapper {
     this.pvWatts.setConstantLossAdjustmentInPercentage(constantLossAdjustment);
   }
 
-  run(): runPVWattsV5Resp {
+  run(): PVWattsV5Resp {
     return this.pvWatts.run();
   }
 }

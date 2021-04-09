@@ -1,6 +1,6 @@
-import { BattWattsWrapper } from "./wrappers/battWattsWrapper";
-import { PVWattsV5Wrapper } from "./wrappers/pvWattsV5Wrapper";
-import { UtilityRate5Wrapper } from "./wrappers/utilityRate5Wrapper";
+import { BattWattsWrapper } from "./wrappers/batt-watts-wrapper";
+import { PVWattsV5Wrapper } from "./wrappers/pv-watts-v5-wrapper";
+import { UtilityRate5Wrapper } from "./wrappers/utility-rate-5-wrapper";
 
 export class SAM {
   public PVWattsV5(): PVWattsV5Wrapper {

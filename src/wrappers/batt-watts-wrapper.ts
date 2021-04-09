@@ -1,6 +1,6 @@
 // @ts-ignore
 import SAM = require("../../sam/build/Release/sam");
-import { runBattWattsResp } from "../models/battWatts";
+import { BattWattsResp } from "../models/batt-watts";
 
 export class BattWattsWrapper {
   battWatts: SAM.BattWatts;
@@ -10,25 +10,25 @@ export class BattWattsWrapper {
   }
 
   /**
-  * To depict whether the project has battery or not. Allowed values are :
-  * - 0 - Disable
-  * - 1 - Enable
-  * 
-  * @param {number} isBatteryEnabled requierd : true
-  * @returns {void}
-  */
+   * To depict whether the project has battery or not. Allowed values are :
+   * - 0 - Disable
+   * - 1 - Enable
+   *
+   * @param {number} isBatteryEnabled requierd : true
+   * @returns {void}
+   */
   setEnableBattery(isBatteryEnabled: number): void {
     this.battWatts.setEnableBattery(isBatteryEnabled);
   }
 
   /**
-  * Sets chemistry type of battery. Allowed values are :
-  * - 0 - Lead Acid
-  * - 1 - Li-ion
-  * 
-  * @param {number} batteryChemistryEnum requierd : true
-  * @returns {void}
-  */
+   * Sets chemistry type of battery. Allowed values are :
+   * - 0 - Lead Acid
+   * - 1 - Li-ion
+   *
+   * @param {number} batteryChemistryEnum requierd : true
+   * @returns {void}
+   */
   setBatteryChemistry(batteryChemistryEnum: number): void {
     this.battWatts.setBatteryChemistry(batteryChemistryEnum);
   }
@@ -93,7 +93,7 @@ export class BattWattsWrapper {
     this.battWatts.setElectricityLoad(hourlyUtilityElectricalLoadPreSolarInKWH);
   }
 
-  run(): runBattWattsResp {
+  run(): BattWattsResp {
     return this.battWatts.run();
   }
 }

@@ -8,7 +8,7 @@
     "test": "test"
   },
   "dependencies": {
-    "typedoc": "^0.20.34"
+    "node-gyp": "^6.0.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.21",
@@ -17,19 +17,21 @@
     "ts-jest": "^26.5.4",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "typedoc": "^0.20.34"
   },
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"**/*\" \"**/*\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
-    "docs:build": "documentation build src/** --parse-extension ts -f html -o docs"
+    "docs:build": "npx typedoc --out docs src",
+    "preinstall": "export LIBRARY_PATH=$(pwd)/sam/ssc/lib/linux/:$LIBRARY_PATH && echo $DYLD_LIBRARY_PATH && node-gyp rebuild --directory=sam"
   },
   "repository": {
     "type": "git",
