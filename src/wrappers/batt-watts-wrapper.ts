@@ -7,7 +7,7 @@ import { BattWattsResp } from "../models/batt-watts";
  * - Some input parameters are interdependent but the equations that enforce consistency are not available in this module. Therefore, the onus is on the user to check that interdependencies are correctly handled.
  *
  */
-export class BattWattsWrapper {
+export class BattWattsResponse {
   battWatts: SAM.BattWatts;
 
   /**

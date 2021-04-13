@@ -1,6 +1,6 @@
-import { BattWattsWrapper } from "./wrappers/batt-watts-wrapper";
-import { PVWattsV5Wrapper } from "./wrappers/pv-watts-v5-wrapper";
-import { UtilityRate5Wrapper } from "./wrappers/utility-rate-5-wrapper";
+import { BattWattsResponse } from "./wrappers/batt-watts-wrapper";
+import { PVWattsV5Response } from "./wrappers/pv-watts-v5-wrapper";
+import { UtilityRate5Response } from "./wrappers/utility-rate-5-wrapper";
 
 /**
  * Wrapper class for the National Renewable Energy Laboratory’s System Advisor Model (SAM), a simulator for renewable energy. This module includes functionalities for these three modules :
@@ -11,32 +11,32 @@ import { UtilityRate5Wrapper } from "./wrappers/utility-rate-5-wrapper";
  */
 export class SAM {
   /**
-   * Creates and returns a new instance of `PVWattsV5Wrapper`
+   * Creates and returns a new instance of `PVWattsV5Response`
    *
    * @param {void}
-   * @returns {PVWattsV5Wrapper}
+   * @returns {PVWattsV5Response}
    */
-  public PVWattsV5(): PVWattsV5Wrapper {
-    return new PVWattsV5Wrapper();
+  public pvWattsV5(): PVWattsV5Response {
+    return new PVWattsV5Response();
   }
 
   /**
-   * Creates and returns a new instance of `BattWattsWrapper`
+   * Creates and returns a new instance of `BattWattsResponse`
    *
    * @param {void}
-   * @returns {BattWattsWrapper}
+   * @returns {BattWattsResponse}
    */
-  public BattWatts(): BattWattsWrapper {
-    return new BattWattsWrapper();
+  public battWatts(): BattWattsResponse {
+    return new BattWattsResponse();
   }
 
   /**
-   * Creates and returns a new instance of `UtilityRate5Wrapper`
+   * Creates and returns a new instance of `UtilityRate5Response`
    *
    * @param {void}
-   * @returns {UtilityRate5Wrapper}
+   * @returns {UtilityRate5Response}
    */
-  public UtilityRate5(): UtilityRate5Wrapper {
-    return new UtilityRate5Wrapper();
+  public utilityRate5(): UtilityRate5Response {
+    return new UtilityRate5Response();
   }
 }

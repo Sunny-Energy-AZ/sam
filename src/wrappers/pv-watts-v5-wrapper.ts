@@ -7,7 +7,7 @@ import { PVWattsV5Resp } from "../models/pv-watts-v5";
  * - Some input parameters are interdependent but the equations that enforce consistency are not available in this module. Therefore, the onus is on the user to check that interdependencies are correctly handled.
  *
  */
-export class PVWattsV5Wrapper {
+export class PVWattsV5Response {
   pvWatts: SAM.PVWattsV5;
 
   /**

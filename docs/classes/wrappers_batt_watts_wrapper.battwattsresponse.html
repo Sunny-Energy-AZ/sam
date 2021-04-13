@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>UtilityRate5Wrapper | node-sam</title>
+    <title>BattWattsResponse | node-sam</title>
     <meta name="description" content="Documentation for node-sam" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -75,17 +75,17 @@
               <a href="../modules.html">node-sam</a>
             </li>
             <li>
-              <a href="../modules/wrappers_utility_rate_5_wrapper.html"
-                >wrappers/utility-rate-5-wrapper</a
+              <a href="../modules/wrappers_batt_watts_wrapper.html"
+                >wrappers/batt-watts-wrapper</a
               >
             </li>
             <li>
-              <a href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html"
-                >UtilityRate5Wrapper</a
+              <a href="wrappers_batt_watts_wrapper.battwattsresponse.html"
+                >BattWattsResponse</a
               >
             </li>
           </ul>
-          <h1>Class UtilityRate5Wrapper</h1>
+          <h1>Class BattWattsResponse</h1>
         </div>
       </div>
     </header>
@@ -95,7 +95,15 @@
           <section class="tsd-panel tsd-comment">
             <div class="tsd-comment tsd-typography">
               <div class="lead">
-                <p>Reatil electricity bill calculator.</p>
+                <p>Detailed battery storage model.</p>
+                <ul>
+                  <li>
+                    Some input parameters are interdependent but the equations
+                    that enforce consistency are not available in this module.
+                    Therefore, the onus is on the user to check that
+                    interdependencies are correctly handled.
+                  </li>
+                </ul>
               </div>
             </div>
           </section>
@@ -103,7 +111,7 @@
             <h3>Hierarchy</h3>
             <ul class="tsd-hierarchy">
               <li>
-                <span class="target">UtilityRate5Wrapper</span>
+                <span class="target">BattWattsResponse</span>
               </li>
             </ul>
           </section>
@@ -116,7 +124,7 @@
                   <ul class="tsd-index-list">
                     <li class="tsd-kind-constructor tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#constructor"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#constructor"
                         class="tsd-kind-icon"
                         >constructor</a
                       >
@@ -128,9 +136,9 @@
                   <ul class="tsd-index-list">
                     <li class="tsd-kind-property tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#utilityrate5"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#battwatts"
                         class="tsd-kind-icon"
-                        >utility<wbr />Rate5</a
+                        >batt<wbr />Watts</a
                       >
                     </li>
                   </ul>
@@ -140,163 +148,128 @@
                   <ul class="tsd-index-list">
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#enabledemandcharge"
-                        class="tsd-kind-icon"
-                        >enable<wbr />Demand<wbr />Charge</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#enabletimestepsellrates"
-                        class="tsd-kind-icon"
-                        >enable<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#run"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#run"
                         class="tsd-kind-icon"
                         >run</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setanalysisperiod"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setacpower"
                         class="tsd-kind-icon"
-                        >set<wbr />Analysis<wbr />Period</a
+                        >setACPower</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setannualenergydegradation"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterycapacity"
                         class="tsd-kind-icon"
-                        >set<wbr />Annual<wbr />Energy<wbr />Degradation</a
+                        >set<wbr />Battery<wbr />Capacity</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setannualminimumcharge"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterychemistry"
                         class="tsd-kind-icon"
-                        >set<wbr />Annual<wbr />Minimum<wbr />Charge</a
+                        >set<wbr />Battery<wbr />Chemistry</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandchargeweekdayschedule"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterydispatch"
                         class="tsd-kind-icon"
-                        >set<wbr />Demand<wbr />Charge<wbr />Weekday<wbr />Schedule</a
+                        >set<wbr />Battery<wbr />Dispatch</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandchargeweekendschedule"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterypower"
                         class="tsd-kind-icon"
-                        >set<wbr />Demand<wbr />Charge<wbr />Weekend<wbr />Schedule</a
+                        >set<wbr />Battery<wbr />Power</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandratesflattable"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setchargefromgrid"
                         class="tsd-kind-icon"
-                        >set<wbr />Demand<wbr />Rates<wbr />Flat<wbr />Table</a
+                        >set<wbr />Charge<wbr />From<wbr />Grid</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandratestoutable"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setchargefromgridpercentage"
                         class="tsd-kind-icon"
-                        >set<wbr />Demand<wbr />RatesTOUTable</a
+                        >set<wbr />Charge<wbr />From<wbr />Grid<wbr />Percentage</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setelectricityload"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setchargefrompv"
+                        class="tsd-kind-icon"
+                        >set<wbr />Charge<wbr />FromPV</a
+                      >
+                    </li>
+                    <li class="tsd-kind-method tsd-parent-kind-class">
+                      <a
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdcpower"
+                        class="tsd-kind-icon"
+                        >setDCPower</a
+                      >
+                    </li>
+                    <li class="tsd-kind-method tsd-parent-kind-class">
+                      <a
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdischarge"
+                        class="tsd-kind-icon"
+                        >set<wbr />Discharge</a
+                      >
+                    </li>
+                    <li class="tsd-kind-method tsd-parent-kind-class">
+                      <a
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdischargepercentage"
+                        class="tsd-kind-icon"
+                        >set<wbr />Discharge<wbr />Percentage</a
+                      >
+                    </li>
+                    <li class="tsd-kind-method tsd-parent-kind-class">
+                      <a
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdispatchmanualweekdayschedule"
+                        class="tsd-kind-icon"
+                        >set<wbr />Dispatch<wbr />Manual<wbr />Weekday<wbr />Schedule</a
+                      >
+                    </li>
+                    <li class="tsd-kind-method tsd-parent-kind-class">
+                      <a
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdispatchmanualweekendschedule"
+                        class="tsd-kind-icon"
+                        >set<wbr />Dispatch<wbr />Manual<wbr />Weekend<wbr />Schedule</a
+                      >
+                    </li>
+                    <li class="tsd-kind-method tsd-parent-kind-class">
+                      <a
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setelectricityload"
                         class="tsd-kind-icon"
                         >set<wbr />Electricity<wbr />Load</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setenergychargeweekdayschedule"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setenablebattery"
                         class="tsd-kind-icon"
-                        >set<wbr />Energy<wbr />Charge<wbr />Weekday<wbr />Schedule</a
+                        >set<wbr />Enable<wbr />Battery</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setenergychargeweekendschedule"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setinverterefficiency"
                         class="tsd-kind-icon"
-                        >set<wbr />Energy<wbr />Charge<wbr />Weekend<wbr />Schedule</a
+                        >set<wbr />Inverter<wbr />Efficiency</a
                       >
                     </li>
                     <li class="tsd-kind-method tsd-parent-kind-class">
                       <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setenergyratestoutable"
+                        href="wrappers_batt_watts_wrapper.battwattsresponse.html#setinvertermodel"
                         class="tsd-kind-icon"
-                        >set<wbr />Energy<wbr />RatesTOUTable</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setinflationrate"
-                        class="tsd-kind-icon"
-                        >set<wbr />Inflation<wbr />Rate</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setmeteringoption"
-                        class="tsd-kind-icon"
-                        >set<wbr />Metering<wbr />Option</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setmonthlyfixedcharge"
-                        class="tsd-kind-icon"
-                        >set<wbr />Monthly<wbr />Fixed<wbr />Charge</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setmonthlyminimumcharge"
-                        class="tsd-kind-icon"
-                        >set<wbr />Monthly<wbr />Minimum<wbr />Charge</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setsellrateequaltobuyrate"
-                        class="tsd-kind-icon"
-                        >set<wbr />Sell<wbr />Rate<wbr />Equal<wbr />ToBuy<wbr />Rate</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setsystempowergenerated"
-                        class="tsd-kind-icon"
-                        >set<wbr />System<wbr />Power<wbr />Generated</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setsystemuselifetimeoutput"
-                        class="tsd-kind-icon"
-                        >set<wbr />System<wbr />Use<wbr />Lifetime<wbr />Output</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#settimestepsellrates"
-                        class="tsd-kind-icon"
-                        >set<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates</a
-                      >
-                    </li>
-                    <li class="tsd-kind-method tsd-parent-kind-class">
-                      <a
-                        href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setyearendsellrate"
-                        class="tsd-kind-icon"
-                        >set<wbr />Year<wbr />End<wbr />Sell<wbr />Rate</a
+                        >set<wbr />Inverter<wbr />Model</a
                       >
                     </li>
                   </ul>
@@ -315,16 +288,16 @@
                 class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class"
               >
                 <li class="tsd-signature tsd-kind-icon">
-                  new <wbr />Utility<wbr />Rate5<wbr />Wrapper<span
+                  new <wbr />Batt<wbr />Watts<wbr />Response<span
                     class="tsd-signature-symbol"
                     >(</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
                   ><a
-                    href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html"
+                    href="wrappers_batt_watts_wrapper.battwattsresponse.html"
                     class="tsd-signature-type"
                     data-tsd-kind="Class"
-                    >UtilityRate5Wrapper</a
+                    >BattWattsResponse</a
                   >
                 </li>
               </ul>
@@ -335,8 +308,8 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L10"
-                          >wrappers/utility-rate-5-wrapper.ts:10</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L11"
+                          >wrappers/batt-watts-wrapper.ts:11</a
                         >
                       </li>
                     </ul>
@@ -344,19 +317,18 @@
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
                       <p>
-                        Creates a new instance of
-                        <code>SAM.UtilityRate5</code> and assigns it to class
-                        property <code>utilityRate5</code>.
+                        Creates a new instance of <code>SAM.BattWatts</code> and
+                        assigns it to class property <code>battWatts</code>.
                       </p>
                     </div>
                   </div>
                   <h4 class="tsd-returns-title">
                     Returns
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html"
                       class="tsd-signature-type"
                       data-tsd-kind="Class"
-                      >UtilityRate5Wrapper</a
+                      >BattWattsResponse</a
                     >
                   </h4>
                 </li>
@@ -368,10 +340,10 @@
             <section
               class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"
             >
-              <a name="utilityrate5" class="tsd-anchor"></a>
-              <h3>utility<wbr />Rate5</h3>
+              <a name="battwatts" class="tsd-anchor"></a>
+              <h3>batt<wbr />Watts</h3>
               <div class="tsd-signature tsd-kind-icon">
-                utility<wbr />Rate5<span class="tsd-signature-symbol">:</span>
+                batt<wbr />Watts<span class="tsd-signature-symbol">:</span>
                 <span class="tsd-signature-type">any</span>
               </div>
               <aside class="tsd-sources">
@@ -379,8 +351,8 @@
                   <li>
                     Defined in
                     <a
-                      href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L10"
-                      >wrappers/utility-rate-5-wrapper.ts:10</a
+                      href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L11"
+                      >wrappers/batt-watts-wrapper.ts:11</a
                     >
                   </li>
                 </ul>
@@ -392,128 +364,6 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="enabledemandcharge" class="tsd-anchor"></a>
-              <h3>enable<wbr />Demand<wbr />Charge</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  enable<wbr />Demand<wbr />Charge<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >isDemandChargeEnabled<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L215"
-                          >wrappers/utility-rate-5-wrapper.ts:215</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>
-                        Sets whether demand charge is enabled or not. Allowed
-                        values are :
-                      </p>
-                      <ul>
-                        <li>0 - Disable</li>
-                        <li>1 - Enable</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        isDemandChargeEnabled:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="enabletimestepsellrates" class="tsd-anchor"></a>
-              <h3>enable<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  enable<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >isTimeStepSellRatesEnabled<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L161"
-                          >wrappers/utility-rate-5-wrapper.ts:161</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>
-                        Sets whether time step sell rates are enabled or not.
-                        Allowed values are :
-                      </p>
-                      <ul>
-                        <li>0 - Disable</li>
-                        <li>1 - Enable</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        isTimeStepSellRatesEnabled:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
               <a name="run" class="tsd-anchor"></a>
               <h3>run</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -522,10 +372,10 @@
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
                   ><a
-                    href="../modules/models_utility_rate_5.html#utilityrate5resp"
+                    href="../modules/models_batt_watts.html#battwattsresp"
                     class="tsd-signature-type"
                     data-tsd-kind="Type alias"
-                    >UtilityRate5Resp</a
+                    >BattWattsResp</a
                   >
                 </li>
               </ul>
@@ -536,8 +386,8 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L267"
-                          >wrappers/utility-rate-5-wrapper.ts:267</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L223"
+                          >wrappers/batt-watts-wrapper.ts:223</a
                         >
                       </li>
                     </ul>
@@ -545,18 +395,17 @@
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
                       <p>
-                        Executes simulation and returns retail electricity bill
-                        estimation.
+                        Executes simulation and returns battery storage model.
                       </p>
                     </div>
                   </div>
                   <h4 class="tsd-returns-title">
                     Returns
                     <a
-                      href="../modules/models_utility_rate_5.html#utilityrate5resp"
+                      href="../modules/models_batt_watts.html#battwattsresp"
                       class="tsd-signature-type"
                       data-tsd-kind="Type alias"
-                      >UtilityRate5Resp</a
+                      >BattWattsResp</a
                     >
                   </h4>
                 </li>
@@ -565,14 +414,68 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setanalysisperiod" class="tsd-anchor"></a>
-              <h3>set<wbr />Analysis<wbr />Period</h3>
+              <a name="setacpower" class="tsd-anchor"></a>
+              <h3>setACPower</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Analysis<wbr />Period<span
+                  setACPower<span class="tsd-signature-symbol">(</span
+                  >hourlyEnergyInW<span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L177"
+                          >wrappers/batt-watts-wrapper.ts:177</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>Sets AC inverter power (in W).</p>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        hourlyEnergyInW:
+                        <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setbatterycapacity" class="tsd-anchor"></a>
+              <h3>set<wbr />Battery<wbr />Capacity</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Battery<wbr />Capacity<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >analysisPeriod<span class="tsd-signature-symbol">: </span
+                  >batteryCapacityInkWh<span class="tsd-signature-symbol"
+                    >: </span
                   ><span class="tsd-signature-type">number</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
@@ -586,22 +489,22 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L28"
-                          >wrappers/utility-rate-5-wrapper.ts:28</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L53"
+                          >wrappers/batt-watts-wrapper.ts:53</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>Sets number of years in analysis.</p>
+                      <p>Sets battery capacity (in kWh).</p>
                     </div>
                   </div>
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        analysisPeriod:
+                        batteryCapacityInkWh:
                         <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
@@ -618,17 +521,16 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setannualenergydegradation" class="tsd-anchor"></a>
-              <h3>set<wbr />Annual<wbr />Energy<wbr />Degradation</h3>
+              <a name="setbatterychemistry" class="tsd-anchor"></a>
+              <h3>set<wbr />Battery<wbr />Chemistry</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Annual<wbr />Energy<wbr />Degradation<span
+                  set<wbr />Battery<wbr />Chemistry<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >annualEnergyDegradation<span class="tsd-signature-symbol"
+                  >batteryChemistryEnum<span class="tsd-signature-symbol"
                     >: </span
                   ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
                   ><span class="tsd-signature-type">void</span>
@@ -641,76 +543,28 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L80"
-                          >wrappers/utility-rate-5-wrapper.ts:80</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L43"
+                          >wrappers/batt-watts-wrapper.ts:43</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>Sets annual energy degradation (in %).</p>
+                      <p>
+                        Sets chemistry type of battery. Allowed values are :
+                      </p>
+                      <ul>
+                        <li>0 - Lead Acid</li>
+                        <li>1 - Li-ion</li>
+                      </ul>
                     </div>
                   </div>
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        annualEnergyDegradation:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setannualminimumcharge" class="tsd-anchor"></a>
-              <h3>set<wbr />Annual<wbr />Minimum<wbr />Charge</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Annual<wbr />Minimum<wbr />Charge<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >annualMinCharge<span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L137"
-                          >wrappers/utility-rate-5-wrapper.ts:137</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets annual minimum charge.</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        annualMinCharge:
+                        batteryChemistryEnum:
                         <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
@@ -727,20 +581,16 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setdemandchargeweekdayschedule" class="tsd-anchor"></a>
-              <h3>
-                set<wbr />Demand<wbr />Charge<wbr />Weekday<wbr />Schedule
-              </h3>
+              <a name="setbatterydispatch" class="tsd-anchor"></a>
+              <h3>set<wbr />Battery<wbr />Dispatch</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Demand<wbr />Charge<wbr />Weekday<wbr />Schedule<span
+                  set<wbr />Battery<wbr />Dispatch<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >demandweekdayschedule<span class="tsd-signature-symbol"
+                  >batteryDispatchEnum<span class="tsd-signature-symbol"
                     >: </span
                   ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">[]</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
                   ><span class="tsd-signature-type">void</span>
@@ -753,136 +603,25 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L225"
-                          >wrappers/utility-rate-5-wrapper.ts:225</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L76"
+                          >wrappers/batt-watts-wrapper.ts:76</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>Sets demand charge weekday schedule (12 x 24).</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        demandweekdayschedule:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setdemandchargeweekendschedule" class="tsd-anchor"></a>
-              <h3>
-                set<wbr />Demand<wbr />Charge<wbr />Weekend<wbr />Schedule
-              </h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Demand<wbr />Charge<wbr />Weekend<wbr />Schedule<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >demandweekendschedule<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L235"
-                          >wrappers/utility-rate-5-wrapper.ts:235</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets demand charge weekend schedule (12 x 24).</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        demandweekendschedule:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setdemandratesflattable" class="tsd-anchor"></a>
-              <h3>set<wbr />Demand<wbr />Rates<wbr />Flat<wbr />Table</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Demand<wbr />Rates<wbr />Flat<wbr />Table<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >flatdemandstructure<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L257"
-                          >wrappers/utility-rate-5-wrapper.ts:257</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets demand rates (flat) table.</p>
+                      <p>
+                        Sets dispatch controller option (for system that respond
+                        to time-varying power prices). Allowed values are :
+                      </p>
                       <ul>
+                        <li>0 - Peak shaving look ahead</li>
+                        <li>1 - Peak shaving look behind</li>
                         <li>
-                          Required if <code>isDemandChargeEnabled = 1</code>
+                          4 - Manual Dispatch (where you provide a schedule or
+                          time-series instructions for when to charge and
+                          discharge the battery)
                         </li>
                       </ul>
                     </div>
@@ -891,7 +630,504 @@
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        flatdemandstructure:
+                        batteryDispatchEnum:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setbatterypower" class="tsd-anchor"></a>
+              <h3>set<wbr />Battery<wbr />Power</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Battery<wbr />Power<span
+                    class="tsd-signature-symbol"
+                    >(</span
+                  >batteryPowerInkW<span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L63"
+                          >wrappers/batt-watts-wrapper.ts:63</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>Sets battery power (in kw).</p>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        batteryPowerInkW:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setchargefromgrid" class="tsd-anchor"></a>
+              <h3>set<wbr />Charge<wbr />From<wbr />Grid</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Charge<wbr />From<wbr />Grid<span
+                    class="tsd-signature-symbol"
+                    >(</span
+                  >chargeFromGrid<span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L99"
+                          >wrappers/batt-watts-wrapper.ts:99</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>
+                        Sets whether Periods 1-6 grid charging allowed or not.
+                      </p>
+                      <ul>
+                        <li>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
+                        </li>
+                        <li>
+                          This variable may need to be updated if the values of
+                          <code>chargeFromGridPercenrage</code> have changed.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        chargeFromGrid:
+                        <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setchargefromgridpercentage" class="tsd-anchor"></a>
+              <h3>set<wbr />Charge<wbr />From<wbr />Grid<wbr />Percentage</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Charge<wbr />From<wbr />Grid<wbr />Percentage<span
+                    class="tsd-signature-symbol"
+                    >(</span
+                  >chargeFromGridPercenrage<span class="tsd-signature-symbol"
+                    >: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L123"
+                          >wrappers/batt-watts-wrapper.ts:123</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>Sets Periods 1-6 gridcharge percent (in %).</p>
+                      <ul>
+                        <li>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
+                        </li>
+                        <li>
+                          This variable may need to be updated if the values of
+                          <code>chargeFromGrid</code> have changed.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        chargeFromGridPercenrage:
+                        <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setchargefrompv" class="tsd-anchor"></a>
+              <h3>set<wbr />Charge<wbr />FromPV</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Charge<wbr />FromPV<span
+                    class="tsd-signature-symbol"
+                    >(</span
+                  >chargeFromPV<span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L87"
+                          >wrappers/batt-watts-wrapper.ts:87</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>
+                        Sets whether Periods 1-6 charging from system allowed or
+                        not.
+                      </p>
+                      <ul>
+                        <li>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        chargeFromPV:
+                        <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setdcpower" class="tsd-anchor"></a>
+              <h3>setDCPower</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  setDCPower<span class="tsd-signature-symbol">(</span
+                  >dcArrayPowerInW<span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L167"
+                          >wrappers/batt-watts-wrapper.ts:167</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>Sets DC array power (in W).</p>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        dcArrayPowerInW:
+                        <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setdischarge" class="tsd-anchor"></a>
+              <h3>set<wbr />Discharge</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Discharge<span class="tsd-signature-symbol">(</span
+                  >discharge<span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L111"
+                          >wrappers/batt-watts-wrapper.ts:111</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>
+                        Sets whether Periods 1-6 discharging allowed or not.
+                      </p>
+                      <ul>
+                        <li>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
+                        </li>
+                        <li>
+                          This variable may need to be updated if the values of
+                          <code>dischargePercentage</code> have changed.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        discharge: <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setdischargepercentage" class="tsd-anchor"></a>
+              <h3>set<wbr />Discharge<wbr />Percentage</h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Discharge<wbr />Percentage<span
+                    class="tsd-signature-symbol"
+                    >(</span
+                  >dischargePercentage<span class="tsd-signature-symbol"
+                    >: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L135"
+                          >wrappers/batt-watts-wrapper.ts:135</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>Sets Periods 1-6 discharge percent (in %).</p>
+                      <ul>
+                        <li>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
+                        </li>
+                        <li>
+                          This variable may need to be updated if the values of
+                          <code>discharge</code> have changed.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        dischargePercentage:
+                        <span class="tsd-signature-type">number</span
+                        ><span class="tsd-signature-symbol">[]</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>requierd : true</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <h4 class="tsd-returns-title">
+                    Returns <span class="tsd-signature-type">void</span>
+                  </h4>
+                </li>
+              </ul>
+            </section>
+            <section
+              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
+            >
+              <a name="setdispatchmanualweekdayschedule" class="tsd-anchor"></a>
+              <h3>
+                set<wbr />Dispatch<wbr />Manual<wbr />Weekday<wbr />Schedule
+              </h3>
+              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+                <li class="tsd-signature tsd-kind-icon">
+                  set<wbr />Dispatch<wbr />Manual<wbr />Weekday<wbr />Schedule<span
+                    class="tsd-signature-symbol"
+                    >(</span
+                  >manualDispatchWeekday<span class="tsd-signature-symbol"
+                    >: </span
+                  ><span class="tsd-signature-type">number</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">[]</span
+                  ><span class="tsd-signature-symbol">)</span
+                  ><span class="tsd-signature-symbol">: </span
+                  ><span class="tsd-signature-type">void</span>
+                </li>
+              </ul>
+              <ul class="tsd-descriptions">
+                <li class="tsd-description">
+                  <aside class="tsd-sources">
+                    <ul>
+                      <li>
+                        Defined in
+                        <a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L146"
+                          >wrappers/batt-watts-wrapper.ts:146</a
+                        >
+                      </li>
+                    </ul>
+                  </aside>
+                  <div class="tsd-comment tsd-typography">
+                    <div class="lead">
+                      <p>Sets Battery dispatch schedule for weekday.</p>
+                      <ul>
+                        <li>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameters">
+                    <li>
+                      <h5>
+                        manualDispatchWeekday:
                         <span class="tsd-signature-type">number</span
                         ><span class="tsd-signature-symbol">[]</span
                         ><span class="tsd-signature-symbol">[]</span>
@@ -910,14 +1146,16 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setdemandratestoutable" class="tsd-anchor"></a>
-              <h3>set<wbr />Demand<wbr />RatesTOUTable</h3>
+              <a name="setdispatchmanualweekendschedule" class="tsd-anchor"></a>
+              <h3>
+                set<wbr />Dispatch<wbr />Manual<wbr />Weekend<wbr />Schedule
+              </h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Demand<wbr />RatesTOUTable<span
+                  set<wbr />Dispatch<wbr />Manual<wbr />Weekend<wbr />Schedule<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >demandratestructure<span class="tsd-signature-symbol"
+                  >manualDispatchWeekend<span class="tsd-signature-symbol"
                     >: </span
                   ><span class="tsd-signature-type">number</span
                   ><span class="tsd-signature-symbol">[]</span
@@ -934,18 +1172,19 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L246"
-                          >wrappers/utility-rate-5-wrapper.ts:246</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L157"
+                          >wrappers/batt-watts-wrapper.ts:157</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>Sets demand rates (TOU) table.</p>
+                      <p>Sets Battery dispatch schedule for weekend.</p>
                       <ul>
                         <li>
-                          Required if <code>isDemandChargeEnabled = 1</code>
+                          Required if isBatteryEnabled: 1 and
+                          batteryDispatchEnum: 4
                         </li>
                       </ul>
                     </div>
@@ -954,7 +1193,7 @@
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        demandratestructure:
+                        manualDispatchWeekend:
                         <span class="tsd-signature-type">number</span
                         ><span class="tsd-signature-symbol">[]</span
                         ><span class="tsd-signature-symbol">[]</span>
@@ -980,7 +1219,9 @@
                   set<wbr />Electricity<wbr />Load<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >electricalLoad<span class="tsd-signature-symbol">: </span
+                  >hourlyUtilityElectricalLoadPreSolarInKWH<span
+                    class="tsd-signature-symbol"
+                    >: </span
                   ><span class="tsd-signature-type">number</span
                   ><span class="tsd-signature-symbol">[]</span
                   ><span class="tsd-signature-symbol">)</span
@@ -995,22 +1236,22 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L60"
-                          >wrappers/utility-rate-5-wrapper.ts:60</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L213"
+                          >wrappers/batt-watts-wrapper.ts:213</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>Sets electricity load (year 1) (in kW).</p>
+                      <p>Sets Electricity load (year 1) (in kW).</p>
                     </div>
                   </div>
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        electricalLoad:
+                        hourlyUtilityElectricalLoadPreSolarInKWH:
                         <span class="tsd-signature-type">number</span
                         ><span class="tsd-signature-symbol">[]</span>
                       </h5>
@@ -1028,192 +1269,14 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setenergychargeweekdayschedule" class="tsd-anchor"></a>
-              <h3>
-                set<wbr />Energy<wbr />Charge<wbr />Weekday<wbr />Schedule
-              </h3>
+              <a name="setenablebattery" class="tsd-anchor"></a>
+              <h3>set<wbr />Enable<wbr />Battery</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Energy<wbr />Charge<wbr />Weekday<wbr />Schedule<span
+                  set<wbr />Enable<wbr />Battery<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >energyweekdayschedule<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L183"
-                          >wrappers/utility-rate-5-wrapper.ts:183</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets energy charge weekday schedule (12 x 24).</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        energyweekdayschedule:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setenergychargeweekendschedule" class="tsd-anchor"></a>
-              <h3>
-                set<wbr />Energy<wbr />Charge<wbr />Weekend<wbr />Schedule
-              </h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Energy<wbr />Charge<wbr />Weekend<wbr />Schedule<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >energyweekendschedule<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L193"
-                          >wrappers/utility-rate-5-wrapper.ts:193</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets energy charge weekend schedule (12 x 24).</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        energyweekendschedule:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setenergyratestoutable" class="tsd-anchor"></a>
-              <h3>set<wbr />Energy<wbr />RatesTOUTable</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Energy<wbr />RatesTOUTable<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >energyratestructure<span class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L203"
-                          >wrappers/utility-rate-5-wrapper.ts:203</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets energy rates table.</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        energyratestructure:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setinflationrate" class="tsd-anchor"></a>
-              <h3>set<wbr />Inflation<wbr />Rate</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Inflation<wbr />Rate<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >inflationRate<span class="tsd-signature-symbol">: </span
+                  >isBatteryEnabled<span class="tsd-signature-symbol">: </span
                   ><span class="tsd-signature-type">number</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
@@ -1227,63 +1290,8 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L70"
-                          >wrappers/utility-rate-5-wrapper.ts:70</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets inflation rate (in %).</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        inflationRate:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setmeteringoption" class="tsd-anchor"></a>
-              <h3>set<wbr />Metering<wbr />Option</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Metering<wbr />Option<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >selectedMonthlyAccountOfExcessGeneration<span
-                    class="tsd-signature-symbol"
-                    >: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L95"
-                          >wrappers/utility-rate-5-wrapper.ts:95</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L31"
+                          >wrappers/batt-watts-wrapper.ts:31</a
                         >
                       </li>
                     </ul>
@@ -1291,14 +1299,12 @@
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
                       <p>
-                        Sets net metering monthly excess. Allowed values are :
+                        Sets the flag to depict whether the project has battery
+                        or not. Allowed values are :
                       </p>
                       <ul>
-                        <li>0 - net energy metering</li>
-                        <li>1 - net energy metering with $ credits</li>
-                        <li>2 - net billing</li>
-                        <li>3 - net billing with carryover to next month</li>
-                        <li>4 - buy all - sell all</li>
+                        <li>0 - Disable</li>
+                        <li>1 - Enable</li>
                       </ul>
                     </div>
                   </div>
@@ -1306,7 +1312,7 @@
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        selectedMonthlyAccountOfExcessGeneration:
+                        isBatteryEnabled:
                         <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
@@ -1323,14 +1329,14 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setmonthlyfixedcharge" class="tsd-anchor"></a>
-              <h3>set<wbr />Monthly<wbr />Fixed<wbr />Charge</h3>
+              <a name="setinverterefficiency" class="tsd-anchor"></a>
+              <h3>set<wbr />Inverter<wbr />Efficiency</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Monthly<wbr />Fixed<wbr />Charge<span
+                  set<wbr />Inverter<wbr />Efficiency<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >monthlyFixedCharge<span class="tsd-signature-symbol">: </span
+                  >efficiency<span class="tsd-signature-symbol">: </span
                   ><span class="tsd-signature-type">number</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
@@ -1344,128 +1350,17 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L117"
-                          >wrappers/utility-rate-5-wrapper.ts:117</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L203"
+                          >wrappers/batt-watts-wrapper.ts:203</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>Sets monthly fixed charge.</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        monthlyFixedCharge:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setmonthlyminimumcharge" class="tsd-anchor"></a>
-              <h3>set<wbr />Monthly<wbr />Minimum<wbr />Charge</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Monthly<wbr />Minimum<wbr />Charge<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >monthlyMinCharge<span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L127"
-                          >wrappers/utility-rate-5-wrapper.ts:127</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets monthly minimum charge.</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        monthlyMinCharge:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setsellrateequaltobuyrate" class="tsd-anchor"></a>
-              <h3>
-                set<wbr />Sell<wbr />Rate<wbr />Equal<wbr />ToBuy<wbr />Rate
-              </h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Sell<wbr />Rate<wbr />Equal<wbr />ToBuy<wbr />Rate<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >useNetMetering<span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L149"
-                          >wrappers/utility-rate-5-wrapper.ts:149</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>
-                        Sets sell rate equal to buy rate. Allowed values are :
-                      </p>
+                      <p>Sets Inverter Efficiency (in %).</p>
                       <ul>
-                        <li>0 - FALSE</li>
-                        <li>1 - TRUE</li>
+                        <li>Constraints: MIN=90, MAX=99.5</li>
                       </ul>
                     </div>
                   </div>
@@ -1473,7 +1368,7 @@
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        useNetMetering:
+                        efficiency:
                         <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
@@ -1490,70 +1385,14 @@
             <section
               class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
             >
-              <a name="setsystempowergenerated" class="tsd-anchor"></a>
-              <h3>set<wbr />System<wbr />Power<wbr />Generated</h3>
+              <a name="setinvertermodel" class="tsd-anchor"></a>
+              <h3>set<wbr />Inverter<wbr />Model</h3>
               <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
                 <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />System<wbr />Power<wbr />Generated<span
+                  set<wbr />Inverter<wbr />Model<span
                     class="tsd-signature-symbol"
                     >(</span
-                  >systemPower<span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L50"
-                          >wrappers/utility-rate-5-wrapper.ts:50</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets system power generated (in kW).</p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        systemPower:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setsystemuselifetimeoutput" class="tsd-anchor"></a>
-              <h3>set<wbr />System<wbr />Use<wbr />Lifetime<wbr />Output</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />System<wbr />Use<wbr />Lifetime<wbr />Output<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >systemUseLifetimeOutput<span class="tsd-signature-symbol"
-                    >: </span
+                  >inverterModel<span class="tsd-signature-symbol">: </span
                   ><span class="tsd-signature-type">number</span
                   ><span class="tsd-signature-symbol">)</span
                   ><span class="tsd-signature-symbol">: </span
@@ -1567,21 +1406,21 @@
                       <li>
                         Defined in
                         <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L40"
-                          >wrappers/utility-rate-5-wrapper.ts:40</a
+                          href="https://github.com/Sunny-Energy-AZ/sam/blob/5984e35/src/wrappers/batt-watts-wrapper.ts#L192"
+                          >wrappers/batt-watts-wrapper.ts:192</a
                         >
                       </li>
                     </ul>
                   </aside>
                   <div class="tsd-comment tsd-typography">
                     <div class="lead">
-                      <p>
-                        Sets lifetime hourly system outputs. Allowed valiues are
-                        :
-                      </p>
+                      <p>Sets Inverter model specifier. Allowed values are :</p>
                       <ul>
-                        <li>0 - hourly first year</li>
-                        <li>1 - hourly lifetime</li>
+                        <li>0 - cec</li>
+                        <li>1 - datasheet</li>
+                        <li>2 - partload</li>
+                        <li>3 - coefficientgenerator</li>
+                        <li>4 - generic</li>
                       </ul>
                     </div>
                   </div>
@@ -1589,124 +1428,7 @@
                   <ul class="tsd-parameters">
                     <li>
                       <h5>
-                        systemUseLifetimeOutput:
-                        <span class="tsd-signature-type">number</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="settimestepsellrates" class="tsd-anchor"></a>
-              <h3>set<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >timeStepSellRates<span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">[]</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L173"
-                          >wrappers/utility-rate-5-wrapper.ts:173</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>Sets time step sell rates.</p>
-                      <ul>
-                        <li>
-                          Required if
-                          <code>isTimeStepSellRatesEnabled = 0</code>
-                        </li>
-                        <li>Constraints: Array of BOOLEAN (0/1)</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        timeStepSellRates:
-                        <span class="tsd-signature-type">number</span
-                        ><span class="tsd-signature-symbol">[]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>requierd : true</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <h4 class="tsd-returns-title">
-                    Returns <span class="tsd-signature-type">void</span>
-                  </h4>
-                </li>
-              </ul>
-            </section>
-            <section
-              class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"
-            >
-              <a name="setyearendsellrate" class="tsd-anchor"></a>
-              <h3>set<wbr />Year<wbr />End<wbr />Sell<wbr />Rate</h3>
-              <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-                <li class="tsd-signature tsd-kind-icon">
-                  set<wbr />Year<wbr />End<wbr />Sell<wbr />Rate<span
-                    class="tsd-signature-symbol"
-                    >(</span
-                  >yearEndSellRate<span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">number</span
-                  ><span class="tsd-signature-symbol">)</span
-                  ><span class="tsd-signature-symbol">: </span
-                  ><span class="tsd-signature-type">void</span>
-                </li>
-              </ul>
-              <ul class="tsd-descriptions">
-                <li class="tsd-description">
-                  <aside class="tsd-sources">
-                    <ul>
-                      <li>
-                        Defined in
-                        <a
-                          href="https://github.com/Sunny-Energy-AZ/sam/blob/3549e94/src/wrappers/utility-rate-5-wrapper.ts#L107"
-                          >wrappers/utility-rate-5-wrapper.ts:107</a
-                        >
-                      </li>
-                    </ul>
-                  </aside>
-                  <div class="tsd-comment tsd-typography">
-                    <div class="lead">
-                      <p>
-                        Sets net metering true-up credit sell rate (in $/kWh).
-                      </p>
-                    </div>
-                  </div>
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameters">
-                    <li>
-                      <h5>
-                        yearEndSellRate:
+                        inverterModel:
                         <span class="tsd-signature-type">number</span>
                       </h5>
                       <div class="tsd-comment tsd-typography">
@@ -1746,7 +1468,7 @@
                   >models/utility-<wbr />rate-<wbr />5</a
                 >
               </li>
-              <li class="tsd-kind-module">
+              <li class="current tsd-kind-module">
                 <a href="../modules/wrappers_batt_watts_wrapper.html"
                   >wrappers/batt-<wbr />watts-<wbr />wrapper</a
                 >
@@ -1756,7 +1478,7 @@
                   >wrappers/pv-<wbr />watts-<wbr />v5-<wbr />wrapper</a
                 >
               </li>
-              <li class="current tsd-kind-module">
+              <li class="tsd-kind-module">
                 <a href="../modules/wrappers_utility_rate_5_wrapper.html"
                   >wrappers/utility-<wbr />rate-<wbr />5-wrapper</a
                 >
@@ -1768,184 +1490,149 @@
             <ul class="current">
               <li class="current tsd-kind-class tsd-parent-kind-module">
                 <a
-                  href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html"
+                  href="wrappers_batt_watts_wrapper.battwattsresponse.html"
                   class="tsd-kind-icon"
-                  >Utility<wbr />Rate5<wbr />Wrapper</a
+                  >Batt<wbr />Watts<wbr />Response</a
                 >
                 <ul>
                   <li class="tsd-kind-constructor tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#constructor"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#constructor"
                       class="tsd-kind-icon"
                       >constructor</a
                     >
                   </li>
                   <li class="tsd-kind-property tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#utilityrate5"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#battwatts"
                       class="tsd-kind-icon"
-                      >utility<wbr />Rate5</a
+                      >batt<wbr />Watts</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#enabledemandcharge"
-                      class="tsd-kind-icon"
-                      >enable<wbr />Demand<wbr />Charge</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#enabletimestepsellrates"
-                      class="tsd-kind-icon"
-                      >enable<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#run"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#run"
                       class="tsd-kind-icon"
                       >run</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setanalysisperiod"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setacpower"
                       class="tsd-kind-icon"
-                      >set<wbr />Analysis<wbr />Period</a
+                      >setACPower</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setannualenergydegradation"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterycapacity"
                       class="tsd-kind-icon"
-                      >set<wbr />Annual<wbr />Energy<wbr />Degradation</a
+                      >set<wbr />Battery<wbr />Capacity</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setannualminimumcharge"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterychemistry"
                       class="tsd-kind-icon"
-                      >set<wbr />Annual<wbr />Minimum<wbr />Charge</a
+                      >set<wbr />Battery<wbr />Chemistry</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandchargeweekdayschedule"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterydispatch"
                       class="tsd-kind-icon"
-                      >set<wbr />Demand<wbr />Charge<wbr />Weekday<wbr />Schedule</a
+                      >set<wbr />Battery<wbr />Dispatch</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandchargeweekendschedule"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setbatterypower"
                       class="tsd-kind-icon"
-                      >set<wbr />Demand<wbr />Charge<wbr />Weekend<wbr />Schedule</a
+                      >set<wbr />Battery<wbr />Power</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandratesflattable"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setchargefromgrid"
                       class="tsd-kind-icon"
-                      >set<wbr />Demand<wbr />Rates<wbr />Flat<wbr />Table</a
+                      >set<wbr />Charge<wbr />From<wbr />Grid</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setdemandratestoutable"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setchargefromgridpercentage"
                       class="tsd-kind-icon"
-                      >set<wbr />Demand<wbr />RatesTOUTable</a
+                      >set<wbr />Charge<wbr />From<wbr />Grid<wbr />Percentage</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setelectricityload"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setchargefrompv"
+                      class="tsd-kind-icon"
+                      >set<wbr />Charge<wbr />FromPV</a
+                    >
+                  </li>
+                  <li class="tsd-kind-method tsd-parent-kind-class">
+                    <a
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdcpower"
+                      class="tsd-kind-icon"
+                      >setDCPower</a
+                    >
+                  </li>
+                  <li class="tsd-kind-method tsd-parent-kind-class">
+                    <a
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdischarge"
+                      class="tsd-kind-icon"
+                      >set<wbr />Discharge</a
+                    >
+                  </li>
+                  <li class="tsd-kind-method tsd-parent-kind-class">
+                    <a
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdischargepercentage"
+                      class="tsd-kind-icon"
+                      >set<wbr />Discharge<wbr />Percentage</a
+                    >
+                  </li>
+                  <li class="tsd-kind-method tsd-parent-kind-class">
+                    <a
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdispatchmanualweekdayschedule"
+                      class="tsd-kind-icon"
+                      >set<wbr />Dispatch<wbr />Manual<wbr />Weekday<wbr />Schedule</a
+                    >
+                  </li>
+                  <li class="tsd-kind-method tsd-parent-kind-class">
+                    <a
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setdispatchmanualweekendschedule"
+                      class="tsd-kind-icon"
+                      >set<wbr />Dispatch<wbr />Manual<wbr />Weekend<wbr />Schedule</a
+                    >
+                  </li>
+                  <li class="tsd-kind-method tsd-parent-kind-class">
+                    <a
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setelectricityload"
                       class="tsd-kind-icon"
                       >set<wbr />Electricity<wbr />Load</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setenergychargeweekdayschedule"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setenablebattery"
                       class="tsd-kind-icon"
-                      >set<wbr />Energy<wbr />Charge<wbr />Weekday<wbr />Schedule</a
+                      >set<wbr />Enable<wbr />Battery</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setenergychargeweekendschedule"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setinverterefficiency"
                       class="tsd-kind-icon"
-                      >set<wbr />Energy<wbr />Charge<wbr />Weekend<wbr />Schedule</a
+                      >set<wbr />Inverter<wbr />Efficiency</a
                     >
                   </li>
                   <li class="tsd-kind-method tsd-parent-kind-class">
                     <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setenergyratestoutable"
+                      href="wrappers_batt_watts_wrapper.battwattsresponse.html#setinvertermodel"
                       class="tsd-kind-icon"
-                      >set<wbr />Energy<wbr />RatesTOUTable</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setinflationrate"
-                      class="tsd-kind-icon"
-                      >set<wbr />Inflation<wbr />Rate</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setmeteringoption"
-                      class="tsd-kind-icon"
-                      >set<wbr />Metering<wbr />Option</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setmonthlyfixedcharge"
-                      class="tsd-kind-icon"
-                      >set<wbr />Monthly<wbr />Fixed<wbr />Charge</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setmonthlyminimumcharge"
-                      class="tsd-kind-icon"
-                      >set<wbr />Monthly<wbr />Minimum<wbr />Charge</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setsellrateequaltobuyrate"
-                      class="tsd-kind-icon"
-                      >set<wbr />Sell<wbr />Rate<wbr />Equal<wbr />ToBuy<wbr />Rate</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setsystempowergenerated"
-                      class="tsd-kind-icon"
-                      >set<wbr />System<wbr />Power<wbr />Generated</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setsystemuselifetimeoutput"
-                      class="tsd-kind-icon"
-                      >set<wbr />System<wbr />Use<wbr />Lifetime<wbr />Output</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#settimestepsellrates"
-                      class="tsd-kind-icon"
-                      >set<wbr />Time<wbr />Step<wbr />Sell<wbr />Rates</a
-                    >
-                  </li>
-                  <li class="tsd-kind-method tsd-parent-kind-class">
-                    <a
-                      href="wrappers_utility_rate_5_wrapper.utilityrate5wrapper.html#setyearendsellrate"
-                      class="tsd-kind-icon"
-                      >set<wbr />Year<wbr />End<wbr />Sell<wbr />Rate</a
+                      >set<wbr />Inverter<wbr />Model</a
                     >
                   </li>
                 </ul>

@@ -23,7 +23,7 @@
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"**/*\" \"**/*\"",
+    "format": "prettier --write \"**/*.yml\" \"**/*.js\" \"**/*.html\" \"**/*.json\" \"**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -35,16 +35,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sunny-Energy-AZ/sam.git"
+    "url": "git+https://github.com/sunny-energy-az/sam.git"
   },
   "keywords": [
     "sam",
     "node"
   ],
-  "author": "Amrit Sharma <amrit.sharma@jalantechnologies.com>",
+  "author": "JTC <developer@jalantechnologies.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sunny-Energy-AZ/sam/issues"
+    "url": "https://github.com/sunny-energy-az/sam/issues"
   },
-  "homepage": "https://github.com/Sunny-Energy-AZ/sam#readme"
+  "homepage": "https://github.com/sunny-energy-az/sam#readme"
 }

@@ -6,7 +6,7 @@ import { UtilityRate5Resp } from "../models/utility-rate-5";
  * Reatil electricity bill calculator.
  *
  */
-export class UtilityRate5Wrapper {
+export class UtilityRate5Response {
   utilityRate5: SAM.UtilityRate5;
 
   /**
