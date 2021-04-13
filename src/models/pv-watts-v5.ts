@@ -1,3 +1,7 @@
+/**
+ * Photovoltaic system model response
+ *
+ */
 export type PVWattsV5Resp = {
   annualEnergyInkWh: number;
   hourlyEnergyInW: number[];

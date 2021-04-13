@@ -1,3 +1,7 @@
+/**
+ * Retail electricity bill response
+ *
+ */
 export type UtilityRate5Resp = {
   electricityBillYear1WithSystem: number;
   monthlyElectricityBillYear1WithSystem: number[];

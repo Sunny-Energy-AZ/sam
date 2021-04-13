@@ -1,3 +1,7 @@
+/**
+ * Battery storage model response.
+ *
+ */
 export type BattWattsResp = {
   electrictyToLoadFromPV: number[];
   electrictyToLoadFromBattery: number[];
