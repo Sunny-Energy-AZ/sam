@@ -1,63 +1,50 @@
 {
   "name": "node-sam",
   "version": "1.0.0",
-  "description": "Boilerplate for npm modules with ES6 features and syntax",
-  "main": "./lib/index.js",
+  "description": "JavaScript library for creating renewable energy system models using SAM Simulation Core (SSC).",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-gyp": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.3",
+    "typedoc": "^0.20.34"
+  },
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"**/*.yml\" \"**/*.js\" \"**/*.html\" \"**/*.json\" \"**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
- },
-  "files": [
-    "lib",
-    "src"
-  ],
+    "postversion": "git push && git push --tags",
+    "docs:build": "npx typedoc --out docs src",
+    "preinstall": "export LIBRARY_PATH=$(pwd)/sam/ssc/lib/linux/:$LIBRARY_PATH && echo $DYLD_LIBRARY_PATH && node-gyp rebuild --directory=sam"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flexdinesh/npm-module-boilerplate.git"
+    "url": "git+https://github.com/sunny-energy-az/sam.git"
   },
   "keywords": [
-    "boilerplate",
-    "npm",
-    "module",
-    "node",
-    "javascript"
+    "sam",
+    "node"
   ],
-  "author": "Dinesh Pandiyan <flexdinesh@gmail.com>",
+  "author": "JTC <developer@jalantechnologies.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flexdinesh/npm-module-boilerplate/issues"
+    "url": "https://github.com/sunny-energy-az/sam/issues"
   },
-  "homepage": "https://github.com/flexdinesh/npm-module-boilerplate#readme",
-  "devDependencies": {
-    "@types/jest": "^26.0.20",
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-add-module-exports": "^1.0.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-minify": "^0.5.0",
-    "chai": "^4.1.2",
-    "cross-env": "^5.1.3",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0",
-    "jest": "^26.6.3",
-    "mocha": "^6.1.3",
-    "nyc": "^13.3.0",
-    "prettier": "^2.2.1",
-    "rimraf": "^2.6.2",
-    "ts-jest": "^26.5.3",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.2.3"
-  }
+  "homepage": "https://github.com/sunny-energy-az/sam#readme"
 }

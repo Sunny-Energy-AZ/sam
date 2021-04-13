@@ -1,4 +1,4 @@
-import { Greeter } from '../src/index';
-test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hello Carl');
+import { SAM } from "../src/index";
+test("My Greeter", () => {
+  expect(new SAM()).toBe("Hello Carl");
 });

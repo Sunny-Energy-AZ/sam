@@ -105,3 +105,10 @@ dist
 
 # Compiled code
 /lib
+
+# sam build
+/sam/build
+/sam/test
+
+# tester
+/tester
